@@ -1,0 +1,20 @@
+{
+  "name": "competitor-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Watch competitor Shopify stores: catalog, prices, sales, stock changes. Free public data only.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "demo:change": "node scripts/demo-change.js",
+    "screenshots": "node scripts/screenshots.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "express": "^5.3.0",
+    "ipaddr.js": "^2.5.0"
+  },
+  "devDependencies": { "playwright": "^1.65.0" }
+}

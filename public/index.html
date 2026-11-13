@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title>Rival Watch · competitor tracker</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#/"><img src="icon.svg" alt="" width="26" height="26"> Rival Watch</a>
+    <span class="pill">Preview</span>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <nav class="tabs" aria-label="Main">
+    <a href="#/" data-tab="home"><span aria-hidden="true">◎</span>Stores</a>
+    <a href="#/feed" data-tab="feed"><span aria-hidden="true">⚡</span>What changed</a>
+  </nav>
+  <div id="toast" role="status" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
